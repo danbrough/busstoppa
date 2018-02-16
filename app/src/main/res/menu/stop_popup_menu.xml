@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/menu_create_shortcut"
+      android:title="@string/lbl_create_shortcut"/>
+  <item
+      android:id="@+id/menu_remove_from_favourites"
+      android:title="@string/lbl_remove_from_favourites"/>
+
+</menu>

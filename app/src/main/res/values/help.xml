@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="help_map">
+<![CDATA[Touch this map to find a bus-stop or train station. 
+Touch the bus stop information to display when the next bus or train is due.]]>
+	</string>
+  <string name="help_map_bus_info"><![CDATA[You can click on this bus-stop to display its timetable information.]]></string>
+  <string name="help_search_title">The Search Button</string>
+	<string name="help_search_content">
+<![CDATA[To use the search feature, enter a street name or the 4-digit stop number.
+Recently visited stops will appear in a drop-down list.]]>
+	</string>
+  <string name="help_live"><![CDATA[Touch a bus number to see the timetable for that route]]></string>
+	<string name="help_recent_empty">
+<![CDATA[This is your favourite bus stop list. <br/>It\'s empty at the moment.<br/>
+Use the Search or the Map button from the toolbar to add to this list.<br/>
+]]>
+	</string>
+  <string name="help_liveinfo"><![CDATA[Swipe down to refresh this information.<br/>Touch a service to see timetable information for that route.]]></string>
+  <!--	<string name="help_permission_fine_location"><![CDATA[I would like to access your location in order to find the bus stop closest to you.<br/>
+        No information will be uploaded or shared with anyone.<br/>
+        This functionality is purely optional.]]></string>-->
+  <string name="help_main_title">Favourite Stops</string>
+  <string name="help_main_content"><![CDATA[
+  This is the favourite stops screen for your most commonly accessed bus stops.
+  ]]>
+  </string>
+  <string name="help_map_title">The Map Button</string>
+  <string name="help_map_content"><![CDATA[Use this to display a google map with which you can use to locate bus stops]]></string>
+
+  <string name="help_location_button"><![CDATA[Click on this to find the bus stop closest to you.]]></string>
+  <string name="help_alert_start_time"><![CDATA[
+  This is the start time from which you will begin to receive alerts.<br/>
+  ]]></string>
+  <string name="help_alert_end_time"><![CDATA[
+  This is the start time from which you will begin to receive alerts.<br/>
+  ]]></string>
+</resources>

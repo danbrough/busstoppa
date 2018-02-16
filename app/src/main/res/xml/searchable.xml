@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+  android:hint="@string/search_hint"
+  android:includeInGlobalSearch="false"
+  android:label="@string/lbl_search"
+  android:searchSuggestAuthority="danbroid.busapp.db.BusStopContentProvider"
+  android:searchSuggestIntentAction="android.intent.action.SEARCH"
+  android:searchSuggestIntentData="content://danbroid.busapp.db.BusStopContentProvider/stops"
+  android:searchSuggestSelection=" ? "
+  android:searchSuggestThreshold="0" >
+
+  <!-- android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" > -->
+
+</searchable>

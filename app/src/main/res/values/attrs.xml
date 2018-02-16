@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <attr name="backgroundFilter" format="color"/>
+  <attr name="rowBackground" format="color"/>
+  <attr name="rowTextColor" format="color"/>
+
+  <attr name="actionBarBackground" format="color"/>
+
+</resources>

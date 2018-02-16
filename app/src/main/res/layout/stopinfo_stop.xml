@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stop_info"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginBottom="2dp"
+    >
+
+  <ImageView
+      android:id="@+id/stop_image"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:scaleType="fitXY"
+      android:src="@drawable/ic_wheelchair_round"
+      />
+
+
+  <TextView
+      android:id="@+id/stop_name"
+      style="@style/TextAppearance.AppCompat.Large"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_toRightOf="@+id/stop_image"
+      android:maxLines="2"
+      android:layout_marginLeft="4dp"
+      android:text="Stop Name Is Really,Really,Really Long"
+      android:textColor="@color/primary_light"
+      />
+
+
+  <TextView
+      android:id="@+id/stop_code"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/stop_name"
+      android:layout_below="@+id/stop_name"
+      android:text="5608"
+
+
+      />
+
+
+  <TextView
+      android:id="@+id/stop_updated"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/stop_code"
+      android:layout_below="@+id/stop_code"
+      android:text="1:00 PM"
+      />
+
+
+  <!--  <ImageView
+        android:visibility="visible"
+        android:id="@+id/stop_alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:src="@drawable/ic_add_alert"
+        android:tint="@color/primary_light"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        />-->
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true">
+
+
+  <LinearLayout
+      android:id="@+id/spinner_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:gravity="center_horizontal|center_vertical"
+      android:orientation="vertical"
+      android:visibility="visible">
+
+    <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+        android:id="@+id/spinner"
+        style="@style/Widget.MaterialProgressBar.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        app:mpb_progressStyle="circular"
+        />
+
+    <TextView
+        android:id="@+id/spinner_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_loading"
+        />
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/empty_text_container"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:gravity="center_horizontal|center_vertical"
+      android:orientation="vertical"
+      android:visibility="gone">
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_loading"
+        />
+  </LinearLayout>
+
+
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="8dp"
+      android:visibility="visible"
+      />
+
+  <me.zhanghai.android.materialprogressbar.MaterialProgressBar
+      android:id="@+id/busy_indicator"
+      style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal.NoPadding"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:indeterminate="true"
+      android:visibility="gone"
+      app:mpb_indeterminateTint="?attr/colorAccent"
+      app:mpb_progressStyle="horizontal"
+      app:mpb_showProgressBackground="false"
+      app:mpb_useIntrinsicPadding="false"/>
+
+
+</RelativeLayout>
+
