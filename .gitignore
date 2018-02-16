@@ -2,7 +2,6 @@
 /gen
 /build
 /.gradle
-**api_keys.xml
 /scripts
 /.idea
 **/__pycache__
