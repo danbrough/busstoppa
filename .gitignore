@@ -10,6 +10,7 @@
 /*.apk
 **.pyc
 **.iml
+**api_keys.xml
 /data/*.db
 /data/*.json
 /data/*/*.json
