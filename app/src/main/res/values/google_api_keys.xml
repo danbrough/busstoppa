@@ -3,10 +3,6 @@
   <!--
     TODO: Before you run your application, you need a Google Maps API key.
 
-    To get one, follow this link, follow the directions and press "Create" at the end:
-
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=B5:94:41:7D:93:F1:B1:8C:30:1B:32:BA:19:BC:23:2C:48:2A:EB:3D%3Bdanbroid.mapdemo
-
     Alternatively, follow the directions here:
     https://developers.google.com/maps/documentation/android/start#get-key
 
@@ -16,7 +12,8 @@
   <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
     </string>
 
-<!-- street view API key -->
+  <!-- street view API key
+   see: https://developers.google.com/maps/documentation/streetview/ -->
   <string name="google_street_view_key" templateMergeStrategy="preserve" translatable="false">
   </string>
 </resources>
