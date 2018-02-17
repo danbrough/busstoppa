@@ -2,7 +2,7 @@ package danbroid.busapp.interfaces;
 
 import danbroid.busapp.db.model.BusStop;
 
-public interface MapView extends BusStopView {
+public interface MapView  {
 
   String PREF_LAT = MapView.class.getName() + ":lat";
   String PREF_LNG = MapView.class.getName() + ":lng";

@@ -49,10 +49,6 @@ public class BusStopContentProvider extends ContentProvider {
   public static final UriMatcher uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
 
 
-  public static final String ARG_LOCATION = "location";
-  public static final String ARG_STOP = "stop";
-  public static final String ARG_ID = "id";
-  public static final String ARG_STOP_CODE = "stop_code";
   private static final int MATCH_SEARCH_SUGGEST = 3;
 
   private static final int MATCH_RECENT_STOPS = 6;

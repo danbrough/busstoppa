@@ -40,9 +40,7 @@ public class BusStopDB {
   @RootContext
   Context context;
 
-
   private SQLiteOpenHelper dbHelper;
-
 
   @AfterInject
   protected void init() {
@@ -180,7 +178,6 @@ public class BusStopDB {
   /**
    * Update an existing (or insert new) stop in the database
    *
-   * @param db
    * @param stop
    * @return the id of the new or updated stop
    */

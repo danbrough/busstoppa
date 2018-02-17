@@ -8,13 +8,29 @@ import danbroid.busapp.db.model.BusStop;
 
 public interface MainView {
 
-  void showBrowser(String url);
+  /**
+   * Displays a web-page
+   * @param url
+   */
+  void showWebBrowser(String url);
 
+  /**
+   * Display the departure information for the stop
+   * @param stop
+   */
   void selectStop(BusStop stop);
 
+  /**
+   * Enable or disable the swipe-to-refresh functionalityS
+   * @param enabled
+   */
 
   void setSwipeRefreshEnabled(boolean enabled);
 
+  /**
+   * Display the busy/refreshing/reloading feedback
+   * @param refreshing
+   */
   void setRefreshing(boolean refreshing);
 
 

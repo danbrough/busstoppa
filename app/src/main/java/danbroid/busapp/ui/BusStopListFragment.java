@@ -23,7 +23,6 @@ import danbroid.busapp.BusApp;
 import danbroid.busapp.R;
 import danbroid.busapp.db.BusStopContentProvider;
 import danbroid.busapp.db.model.BusStop;
-import danbroid.busapp.interfaces.BusStopView;
 import danbroid.util.ui.CursorRecyclerViewAdapter;
 
 /**
@@ -32,7 +31,7 @@ import danbroid.util.ui.CursorRecyclerViewAdapter;
 
 
 @EFragment(R.layout.recycler_view)
-public class BusStopListFragment extends Fragment implements BusStopView, LoaderManager.LoaderCallbacks<Cursor> {
+public class BusStopListFragment extends Fragment implements  LoaderManager.LoaderCallbacks<Cursor> {
   private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(BusStopListFragment
       .class);
 

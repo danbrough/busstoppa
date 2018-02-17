@@ -68,6 +68,6 @@ public class MapActivity extends AppCompatActivity implements MainView {
 
 
   @Override
-  public void showBrowser(String url) {
+  public void showWebBrowser(String url) {
   }
 }

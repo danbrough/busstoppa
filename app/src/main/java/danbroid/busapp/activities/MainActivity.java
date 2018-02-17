@@ -10,7 +10,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
@@ -128,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
     }
 
     if (getContentView() == null) {
+      //initialise the main content with the recent stops list
       showRecentStops();
     }
 
@@ -252,6 +252,9 @@ public class MainActivity extends AppCompatActivity implements MainView {
   private static final int ABOUT_DIALOG_VERSION = 1;
 
 
+  /**
+   * Displays the about dialog and then displays introductory help prompts
+   */
   public void showHelp() {
     log.trace("showHelp()");
 
@@ -259,19 +262,19 @@ public class MainActivity extends AppCompatActivity implements MainView {
     log.warn("showHelp() aboutVersion: " + aboutVersion);
     if (aboutVersion != ABOUT_DIALOG_VERSION) {
       getPrefs().edit().putInt(PREF_ABOUT_DIALOG_VERSION, ABOUT_DIALOG_VERSION).apply();
-      new AboutDialogHelper(this).showAbout(false, new Runnable() {
-        @Override
-        public void run() {
-          showPrompts();
-        }
-      });
+      new AboutDialogHelper(this).showAbout(false, () -> showPrompts());
     } else {
       showPrompts();
     }
 
   }
 
+  /**
+   * Displays introductory help prompts
+   */
   private void showPrompts() {
+
+    //TODO: move messages to strings.xml
     new TouchPrompt(this)
         .setTarget(R.id.menu_search)
         .setPrimaryText("Search Button")
@@ -298,11 +301,6 @@ public class MainActivity extends AppCompatActivity implements MainView {
     new AboutDialogHelper(this).showAbout(true, null);
   }
 
-  @OptionsItem(R.id.menu_map)
-  public void showMap() {
-    log.debug("showMap();");
-    startActivity(new Intent(this, MapActivity_.class));
-  }
 
   @OptionsItem(R.id.menu_exit)
   public void onActionExit() {
@@ -310,15 +308,31 @@ public class MainActivity extends AppCompatActivity implements MainView {
     finish();
   }
 
+  /**
+   * Displays the google map view
+   */
+  @OptionsItem(R.id.menu_map)
+  public void showMap() {
+    log.debug("showMap();");
+    startActivity(new Intent(this, MapActivity_.class));
+  }
 
+  /**
+   * Display the recent sstops history list
+   */
   public void showRecentStops() {
     log.info("showRecentStops()");
     setContentView(RecentStops.getInstance());
   }
 
+  /**
+   * Displays a webpage
+   *
+   * @param url
+   */
   @Override
-  public void showBrowser(String url) {
-    log.info("showBrowser() :{}", url);
+  public void showWebBrowser(String url) {
+    log.info("showWebBrowser() :{}", url);
     setContentView(WebBrowser.getInstance(url), true);
   }
 

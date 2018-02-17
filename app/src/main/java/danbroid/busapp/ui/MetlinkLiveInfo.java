@@ -51,7 +51,7 @@ import danbroid.busapp.interfaces.SwipeRefreshable;
 
 @EFragment(R.layout.metlink_liveinfo)
 @OptionsMenu(R.menu.live_info)
-public class MetlinkLiveInfo extends Fragment implements BusStopView, SwipeRefreshable {
+public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
   public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MetlinkLiveInfo.class);
 
   private static final int TYPE_STOP = 0;
@@ -187,7 +187,7 @@ public class MetlinkLiveInfo extends Fragment implements BusStopView, SwipeRefre
   public void onStart() {
     log.trace("onStart()");
     super.onStart();
-    stop = (BusStop) getArguments().getSerializable("stop");
+    stop = (BusStop) getArguments().getSerializable(BusStopView.ARG_STOP);
   }
 
   @Override
@@ -455,7 +455,7 @@ public class MetlinkLiveInfo extends Fragment implements BusStopView, SwipeRefre
 
     @Override
     public void onClick(View view) {
-      ((MainActivity) getActivity()).showBrowser(serviceInfo.getTimetableURL());
+      ((MainActivity) getActivity()).showWebBrowser(serviceInfo.getTimetableURL());
     }
   }
 
