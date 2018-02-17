@@ -4,12 +4,11 @@
   <string name="about_dialog_title">%1$s version: %2$s</string>
   <string name="about_dialog_content">
 <![CDATA[
-<p>BusStoppa is an application I developed in my spare time to put on my CV.</p>
-<p>Dan Brough is a developer based in Wellington, New Zealand and can be contacted at:
-<a href="mailto:busstoppa@danbrough.org?subject=Query">busstoppa@danbrough.org</a><br/></p>
 <p>
-This software and it\'s developer are in no way affiliated with Metlink<br/>
-Source code now available at <a href="https://github.com/danbrough/busstoppa">github</a><br/>
+This software is in no way affiliated with Metlink
+</p>
+<p>
+Source code is now available at <a href="https://github.com/danbrough/busstoppa">github</a><br/>
 </p>
 ]]>
 	</string>
