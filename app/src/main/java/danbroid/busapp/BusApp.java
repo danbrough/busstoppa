@@ -39,22 +39,11 @@ public class BusApp extends Application {
     MaterialTouchPrompt.install();
   }
 
-  @TargetApi(Build.VERSION_CODES.GINGERBREAD)
-  private static void init_gingerbread() {
-    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().detectAll().penaltyLog
-        ().build();
-    StrictMode.setThreadPolicy(policy);
-  }
-
   private static void sleep(long time) {
     try {
       Thread.sleep(time);
     } catch (Exception e) {
     }
-  }
-
-  public static BusApp get(Context context) {
-    return (BusApp) context.getApplicationContext();
   }
 
   @Override
@@ -87,6 +76,12 @@ public class BusApp extends Application {
     Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
   }
 
+  /**
+   * Create a home-screen shortcut that displays the live departure information for the specified
+   * stop.
+   *
+   * @param stop
+   */
   public void createShortcut(BusStop stop) {
     log.info("createShortcut() : " + stop);
 
@@ -114,6 +109,9 @@ public class BusApp extends Application {
 
   private OkHttpClient httpClient;
 
+  /**
+   * Yes its thread-safe
+   */
   public OkHttpClient getHttpClient() {
 
     if (httpClient == null) {

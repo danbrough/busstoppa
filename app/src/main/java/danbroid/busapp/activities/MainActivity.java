@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ import danbroid.busapp.BuildConfig;
 import danbroid.busapp.BusApp;
 import danbroid.busapp.R;
 import danbroid.busapp.db.BusStopDB;
+import danbroid.busapp.db.Test_;
 import danbroid.busapp.db.model.BusStop;
 import danbroid.busapp.interfaces.HandlesBackButton;
 import danbroid.busapp.interfaces.MainView;
@@ -90,6 +92,19 @@ public class MainActivity extends AppCompatActivity implements MainView {
         ((SwipeRefreshable) contentView).refresh();
       }
     });
+  }
+
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    if (BuildConfig.DEBUG) {
+      menu.add("Test").setOnMenuItemClickListener(item -> {
+        log.trace("calling test..");
+        Test_.getInstance_(this).test();
+        return false;
+      });
+    }
+    return super.onCreateOptionsMenu(menu);
+
   }
 
   protected void processIntent(Intent intent) {

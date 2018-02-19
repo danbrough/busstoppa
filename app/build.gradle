@@ -51,9 +51,11 @@ dependencies {
 
   //slfj implementation
   implementation 'com.github.danbrough.util:slf4j:1.0.6'
+
   implementation 'com.github.danbrough.util:touchprompt_material:1.0.5'
   implementation 'com.github.danbrough.util:ui:1.0.5'
 
+  //implementation 'com.github.danbrough.util:android-core:dev-SNAPSHOT'
 
   annotationProcessor "com.github.bumptech.glide:compiler:${GLIDE}"
 

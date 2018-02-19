@@ -3,7 +3,7 @@ package danbroid.busapp.db.wgtn;
 import java.util.Date;
 
 /**
- * Created by dan on 2/12/16.
+ * Metlink departure information
  */
 public class MetlinkLiveInfo {
   public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MetlinkLiveInfo.class);
