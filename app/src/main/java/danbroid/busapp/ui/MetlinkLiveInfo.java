@@ -15,7 +15,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.App;
@@ -365,9 +365,16 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
       } else {
         stopImage.setVisibility(View.VISIBLE);
 
-        Glide.with(itemView.getContext())
+        stopImage.setImageDrawable(getResources().getDrawable(R.drawable.splash_background));
+
+
+        GlideApp.with(itemView.getContext())
             .load(url)
+            .fallback(R.drawable.splash_background)
+            .transition(DrawableTransitionOptions.withCrossFade())
+            //.apply(RequestOptions.bitmapTransform(new RoundedCorners(8)))
             .into(stopImage);
+
       }
     }
   }
