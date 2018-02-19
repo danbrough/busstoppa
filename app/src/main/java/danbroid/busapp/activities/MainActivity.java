@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
 
@@ -27,6 +28,7 @@ import danbroid.busapp.BuildConfig;
 import danbroid.busapp.BusApp;
 import danbroid.busapp.R;
 import danbroid.busapp.db.BusStopDB;
+import danbroid.busapp.db.Test_;
 import danbroid.busapp.db.model.BusStop;
 import danbroid.busapp.interfaces.HandlesBackButton;
 import danbroid.busapp.interfaces.MainView;
@@ -38,6 +40,10 @@ import danbroid.busapp.ui.WebBrowser;
 import danbroid.busapp.ui.views.SwipeRefresh;
 import danbroid.busapp.util.HelpCodes;
 import danbroid.touchprompt.TouchPrompt;
+
+/**
+ * The main activity view
+ */
 
 @EActivity(R.layout.main_activity)
 @OptionsMenu(R.menu.main_activity)
@@ -76,12 +82,9 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
   @AfterViews
   void init() {
-
-
     setSupportActionBar(toolbar);
 
     processIntent(getIntent());
-
 
     swipeRefresh.setOnRefreshListener(() -> {
       Fragment contentView = getContentView();
@@ -89,6 +92,18 @@ public class MainActivity extends AppCompatActivity implements MainView {
         ((SwipeRefreshable) contentView).refresh();
       }
     });
+  }
+
+  @Override
+  public boolean onCreateOptionsMenu(Menu menu) {
+    if (BuildConfig.DEBUG) {
+      menu.add("Test").setOnMenuItemClickListener(item -> {
+        log.trace("calling test..");
+        Test_.getInstance_(this).test();
+        return false;
+      });
+    }
+    return super.onCreateOptionsMenu(menu);
 
   }
 
@@ -279,7 +294,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
         .setTarget(R.id.menu_search)
         .setPrimaryText("Search Button")
         .setShortDelay()
-        .setSecondaryText("Click here to search for a stop.\nYou can search using the name of the stop or via its code.")
+        .setSecondaryText(R.string.help_search_button)
         .setSingleShotID(HelpCodes.MAIN_SEARCH_BUTTON)
         .show();
     new TouchPrompt(this)
@@ -309,7 +324,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
   }
 
   /**
-   * Displays the google map view
+   * Displays the google map view by spawning the {@link MapActivity} class
    */
   @OptionsItem(R.id.menu_map)
   public void showMap() {
@@ -318,7 +333,9 @@ public class MainActivity extends AppCompatActivity implements MainView {
   }
 
   /**
-   * Display the recent sstops history list
+   * Display the recent stops history list
+   *
+   * @see {@link RecentStops}
    */
   public void showRecentStops() {
     log.info("showRecentStops()");
@@ -328,7 +345,8 @@ public class MainActivity extends AppCompatActivity implements MainView {
   /**
    * Displays a webpage
    *
-   * @param url
+   * @param url The url to display
+   * @see {@link WebBrowser}
    */
   @Override
   public void showWebBrowser(String url) {

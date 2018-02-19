@@ -150,6 +150,7 @@
   <string name="msg_removed_recent_stop">Stop %1$s was removed.</string>
   <string name="lbl_retry">Retry</string>
   <string name="msg_open_in_external_browser">Click here to view this in your default browser</string>
+  <string name="help_search_button">\"Click here to search for a stop.\\nYou can search using the name of the stop or via its code.\"</string>
 
 
 </resources>
