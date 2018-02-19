@@ -252,6 +252,8 @@ public class MainActivity extends AppCompatActivity implements MainView {
   public void selectStop(String stopCode) {
     log.trace("selectStop(): code: {}", stopCode);
     BusStop stop = busStopDB.getBusStop(stopCode);
+    if (stop == null)
+      stop = busStopDB.getBusStop(BusStop.REGION_WELLINGTON + stopCode);
     if (stop != null)
       selectStop(stop);
   }
