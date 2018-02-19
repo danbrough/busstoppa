@@ -15,5 +15,4 @@
 /data/*.json
 /data/*/*.json
 /local.properties
-/app/keystore.jks
 /docs/javadocs
