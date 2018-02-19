@@ -9,14 +9,23 @@
     Once you have your key (it starts with "AIza"), replace the "google_maps_key"
     string in this file.
     -->
+<<<<<<< HEAD
   <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">  AIzaSyBZdcHKVRtE9x_Bkea4OCMj-SG1opguivw
+=======
+  <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+>>>>>>> master
     </string>
 
   <!-- street view API key
    see: https://developers.google.com/maps/documentation/streetview/
    -->
+<<<<<<< HEAD
   <string name="google_street_view_key" templateMergeStrategy="preserve" translatable="false">  AIzaSyBQq1OSPnENAd1ZWi_cmmrfg--DNTLaejs
   </string>
 
 
+=======
+  <string name="google_street_view_key" templateMergeStrategy="preserve" translatable="false">
+  </string>
+>>>>>>> master
 </resources>
