@@ -49,10 +49,10 @@ import danbroid.busapp.interfaces.SwipeRefreshable;
  * Created by dan on 2/12/16.
  */
 
-@EFragment(R.layout.metlink_liveinfo)
+@EFragment(R.layout.metlink_departures)
 @OptionsMenu(R.menu.live_info)
-public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
-  public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MetlinkLiveInfo.class);
+public class MetlinkDepartures extends Fragment implements SwipeRefreshable {
+  public static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(MetlinkDepartures.class);
 
   private static final int TYPE_STOP = 0;
   private static final int TYPE_NOTICE = 1;
@@ -105,8 +105,8 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
     }
   }
 
-  public static MetlinkLiveInfo newInstance(BusStop stop) {
-    return MetlinkLiveInfo_.builder().arg(BusStopView.ARG_STOP, stop).build();
+  public static MetlinkDepartures newInstance(BusStop stop) {
+    return MetlinkDepartures_.builder().arg(BusStopView.ARG_STOP, stop).build();
   }
 
   @Click(R.id.action_retry)
@@ -151,6 +151,8 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
     if (!isResumed() || getActivity() == null) return;
 
     getActivity().setTitle(getString(R.string.lbl_error));
+
+    recyclerView.setVisibility(View.GONE);
 
     errorMessage.setText(message);
     errorContainer.setVisibility(View.VISIBLE);
@@ -210,6 +212,8 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
   public void setStopInfo(final danbroid.busapp.db.wgtn.MetlinkLiveInfo stopInfo) {
     log.info("setStopInfo(): stopInfo: {} stop: {}", stopInfo, stop);
 
+    handler.removeMessages(1);
+
     if (isDetached()) {
       log.debug("isDetached");
       return;
@@ -219,6 +223,16 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
       log.debug("activity is null");
       return;
     }
+
+    if (recyclerView == null) {
+      //this has happened. (not sure how)
+      log.debug("recyclerView is null");
+      return;
+    }
+
+
+    recyclerView.setVisibility(View.VISIBLE);
+    errorContainer.setVisibility(View.GONE);
 
 
     handler.sendEmptyMessageDelayed(1, 15000);
@@ -359,6 +373,8 @@ public class MetlinkLiveInfo extends Fragment implements SwipeRefreshable {
           height +
           "&location=" + stopInfo.Stop.Lat + "," + stopInfo.Stop.Long + "&pitch=-0" +
           ".76&key=" + getString(R.string.google_street_view_key);
+
+      log.trace("street view url: {}", url);
 
       if (TextUtils.isEmpty(stopInfo.Stop.Icon)) {
         stopImage.setVisibility(View.GONE);

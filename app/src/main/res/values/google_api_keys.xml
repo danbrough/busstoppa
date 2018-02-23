@@ -14,7 +14,7 @@
     AIzaSyBZdcHKVRtE9x_Bkea4OCMj-SG1opguivw
     </string>
 
-  <!-- street view API key
+  <!-- street view API key (not required for low level use)
    see: https://developers.google.com/maps/documentation/streetview/
    -->
   <string name="google_street_view_key" templateMergeStrategy="preserve" translatable="false">
