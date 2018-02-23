@@ -162,7 +162,9 @@ public class WebBrowser extends Fragment implements SwipeRefreshable, HandlesBac
 
 
   public void setRefreshing(boolean refreshing) {
-    getMainView().setRefreshing(refreshing);
+    MainView mainView = getMainView();
+    if (mainView != null)
+      mainView.setRefreshing(refreshing);
   }
 
   public void refresh() {
