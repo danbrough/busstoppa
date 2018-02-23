@@ -34,7 +34,7 @@ import danbroid.busapp.interfaces.HandlesBackButton;
 import danbroid.busapp.interfaces.MainView;
 import danbroid.busapp.interfaces.SwipeRefreshable;
 import danbroid.busapp.ui.AboutDialogHelper;
-import danbroid.busapp.ui.MetlinkLiveInfo;
+import danbroid.busapp.ui.MetlinkDepartures;
 import danbroid.busapp.ui.RecentStops;
 import danbroid.busapp.ui.WebBrowser;
 import danbroid.busapp.ui.views.SwipeRefresh;
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
   public void showLiveInfo(BusStop stop) {
     log.info("showLiveInfo(): {} ", stop);
-    setContentView(MetlinkLiveInfo.newInstance(stop));
+    setContentView(MetlinkDepartures.newInstance(stop));
 
     busStopDB.incrementAccessCount(stop);
   }

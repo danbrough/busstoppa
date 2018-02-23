@@ -16,3 +16,4 @@
 /local.properties
 /app/keystore.jks
 /docs/javadocs
+/app/src/main/res/values/google_api_keys.xml
