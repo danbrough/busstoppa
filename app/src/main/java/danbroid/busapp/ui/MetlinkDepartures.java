@@ -152,6 +152,8 @@ public class MetlinkDepartures extends Fragment implements SwipeRefreshable {
 
     getActivity().setTitle(getString(R.string.lbl_error));
 
+    recyclerView.setVisibility(View.GONE);
+
     errorMessage.setText(message);
     errorContainer.setVisibility(View.VISIBLE);
   }
@@ -227,6 +229,10 @@ public class MetlinkDepartures extends Fragment implements SwipeRefreshable {
       log.debug("recyclerView is null");
       return;
     }
+
+
+    recyclerView.setVisibility(View.VISIBLE);
+    errorContainer.setVisibility(View.GONE);
 
 
     handler.sendEmptyMessageDelayed(1, 15000);
@@ -367,6 +373,8 @@ public class MetlinkDepartures extends Fragment implements SwipeRefreshable {
           height +
           "&location=" + stopInfo.Stop.Lat + "," + stopInfo.Stop.Long + "&pitch=-0" +
           ".76&key=" + getString(R.string.google_street_view_key);
+
+      log.trace("street view url: {}", url);
 
       if (TextUtils.isEmpty(stopInfo.Stop.Icon)) {
         stopImage.setVisibility(View.GONE);
