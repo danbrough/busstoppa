@@ -1,0 +1,42 @@
+#!/bin/bash
+
+cd `dirname $0` && cd ../data
+
+DB=/tmp/db
+TMP_STOP=/tmp/stop
+STOPS_FILE=/tmp/stops.json
+
+pretty_print(){
+  python3 -c "import sys,json;print(json.dumps(json.load(sys.stdin),indent='\t'))"
+}
+
+COUNT=0
+
+
+if [ ! -f $STOPS_FILE ]; then
+  echo 'Downloading stops to ' $STOPS_FILE
+  curl -s https://www.metlink.org.nz/api/v1/StopList > $STOPS_FILE || exit 1
+fi
+
+
+echo 'Processing stops ..'
+
+
+cat $STOPS_FILE | pretty_print | grep Sms  | sed -e 's:.*Sms\"\:\ \"::g' -e 's:\",::g'   | while read STOP; do
+  COUNT=$(($COUNT + 1))
+  if [ -f ${STOP}.json ] && [ "$(stat -c'%s' ${STOP}.json)"  != "0"  ]; then
+    continue
+  fi
+  echo '#'$COUNT loading stop $STOP
+  TMP_STOP=/tmp/stop_${STOP}.json
+  curl  -s https://www.metlink.org.nz/api/v1/StopDepartures/$STOP > $TMP_STOP || continue
+  grep "Bad Request" $TMP_STOP && continue
+  cat $TMP_STOP | pretty_print > ${STOP}.json  || rm ${STOP}.json 2> /dev/null
+  rm $TMP_STOP
+done
+
+
+
+
+
+

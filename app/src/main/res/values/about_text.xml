@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <integer name="about_version">2</integer>
+    <string name="about_text"><![CDATA[
 
-  <string name="about_dialog_title">%1$s version: %2$s</string>
-  <string name="about_dialog_content">
-<![CDATA[
+<p>BusStoppa is an application I developed in my spare time to put on my CV.</p>
+<p>Dan Brough is a developer based in Wellington, New Zealand and can be contacted at:
+<a href="mailto:busstoppa@danbrough.org?subject=Query">busstoppa@danbrough.org</a><br/></p>
 <p>
-This software is in no way affiliated with Metlink
+This software and it\'s developer are in no way affiliated with Metlink<br/>
 </p>
+<p><b>Version v2.09-beta01:</b> Moving to Metlink open-data</p>
+<p><b>Version v2.07:</b> Map fix. Reverted to Google Maps.</p>
+<p><b>Version v2.03:</b> Fix for maps not rendering on Android-9.</p>
+<p><b>Version v2.01:</b> Long press a stop in the history to rename it.</p>
+
 <p>
-Source code is now available at <a href="https://github.com/danbrough/busstoppa">github</a><br/>
-</p>
+<b>Version v2.0:</b> Version 2.0 Update.</p>
+
+<p>All data now comes from metlinks live data service</p>
+<p>Removed all dependencies on Google Play Services (mapping) and replaced with
+<a href="https://www.openstreetmap.org">OpenStreetMaps</a></p>
+<p>Version 2 is written in Kotlin.<br/>
+Source code is available on <a href="https://github.com/danbrough/busstoppa/">GitHub</a></p>
+
 ]]>
-	</string>
+  </string>
 
 </resources>

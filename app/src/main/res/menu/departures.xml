@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+  <item
+      android:id="@+id/action_map"
+      android:icon="@drawable/ic_map"
+      android:title="@string/lbl_map"
+      app:showAsAction="ifRoom" />
+  <item
+      android:id="@+id/action_browser"
+      android:icon="@drawable/ic_web"
+      android:title="@string/lbl_open_in_browser"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/action_shortcut"
+      android:icon="@drawable/ic_bookmark"
+      android:title="@string/lbl_create_shortcut"
+      app:showAsAction="never" />
+
+
+</menu>

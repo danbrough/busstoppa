@@ -1,0 +1,31 @@
+#!/bin/bash
+
+CACHE_FILE=/tmp/metlink_stops.json
+CACHE_FILE2=/tmp/metlink_stops.json.old
+INSTALL_FILE=/srv/https/metlink/stops.json.gz
+
+get_stops(){
+	curl -s -X GET https://api.opendata.metlink.org.nz/v1/gtfs/stops -H 'accept: application/json' -H 'x-api-key: I1qckCh5UZ1XiSfh7sGrE9jay4SmEybZ5x8Aw8c6'
+}
+
+
+get_stops > $CACHE_FILE || exit 1
+
+if [ -f $CACHE_FILE2 ]; then
+	echo no change
+	diff -q $CACHE_FILE $CACHE_FILE2 && exit 0
+fi
+
+echo updating at `date`
+mv $CACHE_FILE $CACHE_FILE2
+
+gzip -c $CACHE_FILE2 > $INSTALL_FILE
+
+
+
+
+
+
+
+
+

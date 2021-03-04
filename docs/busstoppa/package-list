@@ -1,0 +1,24 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+$dokka.location:danbroid.busapp$debugToast(android.content.Context, kotlin.CharSequence)danbroid.busapp/android.content.-context/debug-toast.md
+$dokka.location:danbroid.busapp$metlink#android.content.Contextdanbroid.busapp/android.content.-context/metlink.md
+$dokka.location:danbroid.busapp$okhttpClient#android.content.Contextdanbroid.busapp/android.content.-context/okhttp-client.md
+$dokka.location:danbroid.busapp$prefs#android.content.Contextdanbroid.busapp/android.content.-context/prefs.md
+$dokka.location:danbroid.busapp$repository#android.content.Contextdanbroid.busapp/android.content.-context/repository.md
+$dokka.location:danbroid.busapp$retrofitBuilder#android.content.Contextdanbroid.busapp/android.content.-context/retrofit-builder.md
+$dokka.location:danbroid.busapp$themeColor(androidx.fragment.app.FragmentActivity, kotlin.Int)danbroid.busapp/androidx.fragment.app.-fragment-activity/theme-color.md
+$dokka.location:danbroid.busapp$timeFormat#android.content.Contextdanbroid.busapp/android.content.-context/time-format.md
+$dokka.location:danbroid.busapp.activities$displayToolbar(android.app.Activity, kotlin.Boolean)danbroid.busapp.activities/android.app.-activity/display-toolbar.md
+$dokka.location:danbroid.busapp.activities$showBrowser(android.app.Activity, kotlin.String)danbroid.busapp.activities/android.app.-activity/show-browser.md
+$dokka.location:danbroid.busapp.activities$showMap(android.app.Activity, danbroid.busapp.data.BusStop)danbroid.busapp.activities/android.app.-activity/show-map.md
+$dokka.location:danbroid.busapp.models$appModel(androidx.fragment.app.Fragment)danbroid.busapp.models/androidx.fragment.app.-fragment/app-model.md
+$dokka.location:danbroid.busapp.models$appModel(androidx.fragment.app.FragmentActivity)danbroid.busapp.models/androidx.fragment.app.-fragment-activity/app-model.md
+$dokka.location:danbroid.busapp.models$mapModel(androidx.fragment.app.Fragment)danbroid.busapp.models/androidx.fragment.app.-fragment/map-model.md
+$dokka.location:danbroid.busapp.ui$createMapFragment(android.app.Activity)danbroid.busapp.ui/android.app.-activity/create-map-fragment.md
+danbroid.busapp
+danbroid.busapp.activities
+danbroid.busapp.data
+danbroid.busapp.metlink
+danbroid.busapp.models
+danbroid.busapp.ui
+danbroid.busapp.utils

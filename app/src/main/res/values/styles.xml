@@ -1,53 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <style name="StopInfoHeader" parent="@style/TextAppearance.AppCompat.Body1">
-    <item name="android:textColor">#ffffff00</item>
-    <item name="android:background">@color/primary_dark</item>
-    <item name="android:padding">5dip</item>
-    <item name="android:textStyle">bold</item>
+    <!-- Base application theme.
+         <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="serviceTextStyle">@style/serviceTextAppearance</item>
 
-  </style>
+        <item name="MaterialTapTargetPromptTheme">@style/TapTargetTheme</item>
+        <item name="actionModeBackground">@color/colorPrimaryBright</item>
 
-  <style name="StopInfoCell" parent="@style/TextAppearance.AppCompat.Body2">
-    <item name="android:textColor">@color/white</item>
-    <item name="android:padding">5dip</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:background">@color/primary_light</item>
+        <item name="searchViewStyle">@style/searchViewStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/autoCompleteTextViewStyle</item>
+        <item name="colorControlNormal">?android:textColorPrimaryInverse</item>
 
-  </style>
+        <item name="textAppearanceSearchResultTitle">@style/searchResultTitleTextAppearance</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/searchResultSubTitleTextAppearance
+        </item>
 
-  <style name="SearchDropDown" parent="RtlOverlay.Widget.AppCompat.Search.DropDown">
-    <item name="android:background">@drawable/dropdown_item_background</item>
-  </style>
+    </style>
 
-  <style name="DropDownItemStyle" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
-    <item name="android:background">#00000000</item>
-  </style>
+    <style name="serviceTextAppearance">
+        <item name="android:textColor">@color/colorPrimaryLight</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/departures_text_size</item>
+    </style>
 
-  <style name="SearchResultTitle" parent="@style/TextAppearance.AppCompat.Light.SearchResult.Title">
-    <item name="android:textColor">@color/primary_light</item>
+    <style name="AppTheme.TransparentActionBar2" parent="Theme.MaterialComponents.Light">
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
 
-  </style>
+    <style name="AppTheme.TransparentActionBar" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/TransparentActionBar</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/TransparentActionBar</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
 
-  <style name="SearchResultSubtitle" parent="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle">
+    <style name="TransparentActionBar"
+        parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@null</item>
+        <!-- Support library compatibility -->
+        <item name="background">@null</item>
+    </style>
 
-    <item name="android:textColor">#555555</item>
+    <style name="searchResultTitleTextAppearance" parent="TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <style name="searchResultSubTitleTextAppearance" parent="TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
 
 
-  </style>
+    <style name="searchViewStyle" parent="@style/Widget.AppCompat.Light.SearchView">
+
+        <!--
+
+           <item name="layout">@layout/abc_search_view</item>
+            <item name="queryBackground">@drawable/abc_textfield_search_material</item>
+            <item name="submitBackground">@drawable/abc_textfield_search_material</item>
+            <item name="closeIcon">@drawable/abc_ic_clear_material</item>
+            <item name="searchIcon">@drawable/abc_ic_search_api_material</item>
+            <item name="searchHintIcon">@drawable/abc_ic_search_api_material</item>
+            <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
+            <item name="voiceIcon">@drawable/abc_ic_voice_search_api_material</item>
+            <item name="commitIcon">@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+            <item name="suggestionRowLayout">@layout/abc_search_dropdown_item_icons_2line</item>
+
+        -->
+
+        <item name="queryHint">@string/abc_search_hint</item>
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <style name="autoCompleteTextViewStyle" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <!-- corrects the black text in the SearchViews autocomplete -->
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textColorHint">?android:textColorHintInverse</item>
+    </style>
 
 
-  <style name="SearchViewStyle" parent="@style/Widget.AppCompat.Light.SearchView">
-    <item name="suggestionRowLayout">@layout/search_dropdown</item>
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
-  </style>
 
-  <style name="stopNumberTextAppearance" parent="@style/TextAppearance.AppCompat.Large">
-    <item name="android:textColor">@color/white</item>
-    <item name="android:background">@color/primary_dark</item>
-    <item name="android:padding">2dip</item>
-  </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--    <item name="android:elevation" tools:targetApi="lollipop">0dp</item>
+            <item name="android:textColorPrimary">@color/colorPrimary</item>-->
+    </style>
 
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+
+    <style name="TapTargetTheme">
+        <item name="mttp_backgroundColour">#C0005781</item>
+        <item name="mttp_focalColour">#44C4DB0D</item>
+    </style>
 
 </resources>

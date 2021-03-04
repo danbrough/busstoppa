@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <com.google.android.material.tabs.TabLayout
+      android:id="@+id/tabs"
+      style="@style/Widget.MaterialComponents.TabLayout.Colored"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:background="@color/colorPrimaryLight"
+      app:tabIndicatorColor="?colorAccent"
+      app:tabIndicatorFullWidth="true"
+      app:tabTextAppearance="?textAppearanceSmallPopupMenu"
+      app:tabInlineLabel="true">
+
+
+  </com.google.android.material.tabs.TabLayout>
+  <!--
+        //android:background="@color/colorPrimaryLight"
+     // android:foregroundGravity="top"
+     // android:paddingTop="4dp"
+    //  android:paddingBottom="4dp"
+    -->
+
+
+  <androidx.viewpager2.widget.ViewPager2
+      android:id="@+id/pager"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <!--    <androidx.viewpager2.widget.PagerTitleStrip
+          android:id="@+id/titleTabs"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@color/colorPrimaryLight"
+          android:foregroundGravity="top"
+          android:paddingTop="4dp"
+          android:paddingBottom="4dp"
+          android:textColor="#ffffff" />-->
+  </androidx.viewpager2.widget.ViewPager2>
+
+
+  <!--  <LinearLayout
+      android:id="@+id/error_container"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center_vertical|center_horizontal"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_warning"
+        android:tint="@color/yellow" />
+
+      <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Error MEssage"
+        android:textAppearance="?attr/textAppearanceSearchResultSubtitle" />
+
+      <Button
+        android:id="@+id/action_retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_retry" />
+
+    </LinearLayout>-->
+</LinearLayout>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto">
+  xmlns:app="http://schemas.android.com/apk/res-auto">
   <item
-      android:id="@+id/menu_nearest_stop"
-      android:icon="@drawable/ic_gps_off"
-      android:title="@string/lbl_nearest_stop"
-      app:showAsAction="always"/>
+    android:id="@+id/action_gps"
+    android:icon="@drawable/ic_gps_off"
+    android:title="@string/lbl_gps_button"
+      app:iconTint="?attr/actionMenuTextColor"
+      app:showAsAction="always" />
 
 </menu>

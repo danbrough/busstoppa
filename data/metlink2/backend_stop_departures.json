@@ -1,0 +1,547 @@
+{
+  "farezone": "2",
+  "closed": false,
+  "departures": [
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "-PT2M18S",
+      "vehicle_id": "3703",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T07:31:00+13:00",
+        "expected": "2021-02-12T07:28:42+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-12T07:31:00+13:00",
+        "expected": "2021-02-12T07:28:42+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T07:41:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T07:41:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "677",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7158",
+        "name": "Island Bay-ReefSt a"
+      },
+      "destination": {
+        "stop_id": "4333",
+        "name": "School Bus"
+      },
+      "delay": "PT1M31S",
+      "vehicle_id": "3436",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T07:40:00+13:00",
+        "expected": "2021-02-12T07:41:31+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-12T07:40:00+13:00",
+        "expected": "2021-02-12T07:41:31+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T07:49:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T07:49:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T07:57:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T07:57:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:05:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:05:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:13:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:13:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:21:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:21:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:31:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:31:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:41:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:41:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T08:51:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T08:51:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T09:01:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T09:01:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T09:12:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T09:12:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T09:24:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T09:24:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T09:39:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T09:39:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T09:54:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T09:54:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T10:09:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T10:09:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T10:24:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T10:24:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T10:39:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T10:39:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "7723",
+      "service_id": "7",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "7730",
+        "name": "Kingston-C"
+      },
+      "destination": {
+        "stop_id": "5016",
+        "name": "Wgtn Station"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WashingtonAve at Co",
+      "arrival": {
+        "aimed": "2021-02-12T10:54:00+13:00",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T10:54:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    }
+  ],
+  "alerts": []
+}

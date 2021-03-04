@@ -1,0 +1,547 @@
+{
+  "farezone": "1",
+  "closed": false,
+  "departures": [
+    {
+      "stop_id": "WELL",
+      "service_id": "JVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "JOHN",
+        "name": "JOHN-All stops"
+      },
+      "delay": "PT13S",
+      "vehicle_id": "4371",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T13:32:00+13:00",
+        "expected": "2021-02-12T13:32:13+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "4245",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T13:33:00+13:00",
+        "expected": "2021-02-12T13:33:00+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T13:50:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T13:53:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "JVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "JOHN",
+        "name": "JOHN-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:02:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:10:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:13:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "MEL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "MELL",
+        "name": "MELL-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:17:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:30:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "JVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "JOHN",
+        "name": "JOHN-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:32:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:33:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:50:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T14:53:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "PORI2",
+        "name": "PORI-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:01:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "JVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "JOHN",
+        "name": "JOHN-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:02:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:06:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "WAIK",
+        "name": "WAIK-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:13:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "HVL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "UPPE",
+        "name": "UPPE-Express"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:18:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "KPL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "PORI2",
+        "name": "PORI-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:21:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "WELL",
+      "service_id": "MEL",
+      "direction": "outbound",
+      "operator": "RAIL",
+      "origin": {
+        "stop_id": "WELL",
+        "name": "WgtnStn"
+      },
+      "destination": {
+        "stop_id": "MELL",
+        "name": "MELL-All stops"
+      },
+      "delay": "PT0S",
+      "vehicle_id": "",
+      "name": "WgtnStn",
+      "arrival": {
+        "aimed": "",
+        "expected": ""
+      },
+      "departure": {
+        "aimed": "2021-02-12T15:25:00+13:00",
+        "expected": null
+      },
+      "status": "",
+      "wheelchair_accessible": false
+    }
+  ],
+  "alerts": []
+}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dddddd"
+    android:clickable="true"
+    android:focusable="true"
+    android:paddingTop="2dp"
+    android:paddingBottom="0dp">
+
+  <FrameLayout
+      android:id="@+id/row_container"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/service_row"
+        android:layout_width="match_parent"
+        android:layout_height="?listPreferredItemHeightSmall"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="?selectableItemBackground"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+      <!--android:background="@drawable/service_background"-->
+
+      <TextView
+          android:id="@+id/service_code"
+          android:layout_width="40dp"
+          android:layout_height="match_parent"
+          android:background="@color/colorPrimaryLight"
+          android:gravity="center"
+          android:text="250"
+          android:textAlignment="center"
+          android:textColor="#ffffff"
+          android:textSize="@dimen/departures_text_size"
+          android:textStyle="bold"
+          tools:ignore="HardcodedText" />
+
+      <TextView
+          android:id="@+id/route_name"
+          style="?serviceTextStyle"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="10"
+          android:paddingLeft="5dp"
+          android:text="Kingston"
+          tools:ignore="HardcodedText" />
+
+      <!--android:textAppearance="?android:textAppearanceSmall"
+      android:textColor="@color/colorPrimaryLight"
+      android:textStyle="bold"-->
+
+      <ImageView
+          android:id="@+id/vehicle_feature"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="right|center_vertical"
+          android:layout_marginRight="2dp"
+          android:src="@drawable/ic_wheelchair_round" />
+
+      <TextView
+          android:id="@+id/due"
+          style="?serviceTextStyle"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_marginRight="4dp"
+          android:gravity="center_vertical|start"
+          android:minWidth="70dp"
+          android:paddingLeft="4dp"
+          android:paddingRight="4dp"
+          android:text="4 mins" />
+
+
+    </LinearLayout>
+  </FrameLayout>
+</FrameLayout>

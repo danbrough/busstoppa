@@ -1,0 +1,4 @@
+
+https://backend.metlink.org.nz/api/v1/stopdepartures/7723
+
+

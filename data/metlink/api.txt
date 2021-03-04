@@ -1,0 +1,24 @@
+
+Stop Info
+https://www.metlink.org.nz/api/v1/Stop/${CODE}
+
+Service notices:
+https://www.metlink.org.nz/api/v1/ServiceNotices/
+
+Nearest stops on map:
+https://www.metlink.org.nz/api/v1/StopNearby/${LATITUDE}/${LONGITURE}
+https://www.metlink.org.nz/api/v1/StopNearby/-41.33048247835469/174.82289151448117
+
+Service List:
+https://www.metlink.org.nz/api/v1/ServiceList/
+
+Stop List:
+https://www.metlink.org.nz/api/v1/StopList/
+
+Stop Search:
+https://www.metlink.org.nz/api/v1/StopSearch/${SEARCH}
+
+##########################################################################################
+newer api:
+
+https://backend.metlink.org.nz/api/v1/stopdepartures/7723

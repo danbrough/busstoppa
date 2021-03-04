@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
- <!-- <color name="primary">#005781</color>
-  <color name="primary_dark">#003955</color>
-  <color name="primary_transparent">#C0003955</color>
-  <color name="primary_bright">#00A4F2</color>
-  <color name="primary_light">#4786A4</color>-->
 
-  <color name="primary">#00364A</color>
-  <color name="primary_dark">#001d28</color>
-  <color name="primary_transparent">#C0003955</color>
-  <color name="primary_bright">#00A4F2</color>
-  <color name="primary_light">#006699</color>
+  <color name="colorPrimary">#00364A</color>
+  <color name="colorPrimaryDark">#001d28</color>
+  <color name="colorPrimaryTransparent">#50003955</color>
+  <color name="colorPrimaryBright">#00A4F2</color>
+  <color name="colorPrimaryLight">#006699</color>
+  <color name="colorAccent">@color/yellow</color>
 
-
-
-  <color name="text">@color/black</color>
-  <color name="accent">@color/primary_bright</color>
-  <color name="white">#ffffff</color>
-  <color name="black">#000000</color>
-  <color name="red">#ff0000</color>
   <color name="yellow">#C4DB0D</color>
-  <color name="green">#00ff00</color>
-  <color name="blue">#0000ff</color>
-  <color name="search_hint_color">@color/primary_bright</color>
-  <color name="search_text_color">@color/white</color>
-  <color name="search_icon_color">@color/white</color>
-  <color name="popup_background">#440000ff</color>
-
-  <color name="colorPrimarySeeThrough">#AA795548</color>
-  <color name="showcaseColor">#FFA000</color>
+  <color name="red">#ff0000</color>
 
 </resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".activities.MainActivity">
+
+<!--
+  <FrameLayout
+    android:id="@+id/fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" />-->
+
+  <include layout="@layout/fragment_navhost"/>
+
+
+
+
+  <!--android:layout_width="300dp"
+  android:layout_height="wrap_content"
+  android:background="@drawable/balloon_overlay_unfocused"
+  -->
+  <LinearLayout
+    android:id="@+id/error_display"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:layout_marginTop="?actionBarSize"
+    android:background="#55000000"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="#ffffff"
+      android:gravity="center"
+      android:orientation="vertical">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:src="@android:drawable/stat_notify_error"
+        app:tint="@color/colorAccent" />
+
+      <TextView
+        android:id="@+id/error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:text="Error" />
+    </LinearLayout>
+  </LinearLayout>
+
+  <com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+    <!-- android:background="#50000000"
+    app:elevation="0dp"
+    -->
+
+    <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      app:layout_scrollFlags="scroll|enterAlways"
+      app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <!--
+          app:titleTextColor="@color/colorAccent"
+
+          app:layout_scrollFlags="scroll|enterAlways"
+
+-->
+
+  </com.google.android.material.appbar.AppBarLayout>
+
+<!--  <com.google.android.material.floatingactionbutton.FloatingActionButton
+    android:id="@+id/fab"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:layout_margin="16dp"
+    android:src="@drawable/ic_web" />-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

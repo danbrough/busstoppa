@@ -1,0 +1,18 @@
+#!/bin/bash
+
+### Runs the dokka documentation generator
+
+cd `dirname $0` && cd ..
+
+while :; do
+    # wait for modifications to the source directory (requires inotify-tools)
+    inotifywait  -r app/src/ -e modify 2> /dev/null
+    sleep 1
+    ./gradlew :app:assembleDebug dokka
+done
+
+
+
+
+
+

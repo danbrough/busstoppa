@@ -1,0 +1,2082 @@
+{
+  "header": {
+    "gtfs_realtime_version": "1.0",
+    "timestamp": 1613346904,
+    "incrementality": 0
+  },
+  "entity": [
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1613282400,
+            "end": 1613350504
+          }
+        ],
+        "effect": "UNKNOWN_EFFECT",
+        "cause": "UNKNOWN_CAUSE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "As of 11:59pm, Sunday 14 February, the Wellington Region will move to Alert Level 2 until 12 midnight, Wednesday 17 February.\r\n\r\n\r\n\r\nAt Alert Level 2, face coverings are mandatory on all Metlink services. Fares will remain in place, and there will be no timetable changes.\r\n\r\n\r\n\r\nPassengers should practice physical distancing at bus stops, train stations and ferry wharfs.\r\n\r\n\r\n\r\n Covid-19 information"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Wellington region is currently in Alert level 2"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "10",
+            "route_type": 3
+          },
+          {
+            "route_id": "20",
+            "route_type": 3
+          },
+          {
+            "route_id": "30",
+            "route_type": 3
+          },
+          {
+            "route_id": "70",
+            "route_type": 3
+          },
+          {
+            "route_id": "120",
+            "route_type": 3
+          },
+          {
+            "route_id": "121",
+            "route_type": 3
+          },
+          {
+            "route_id": "130",
+            "route_type": 3
+          },
+          {
+            "route_id": "140",
+            "route_type": 3
+          },
+          {
+            "route_id": "170",
+            "route_type": 3
+          },
+          {
+            "route_id": "181",
+            "route_type": 3
+          },
+          {
+            "route_id": "190",
+            "route_type": 3
+          },
+          {
+            "route_id": "191",
+            "route_type": 3
+          },
+          {
+            "route_id": "200",
+            "route_type": 3
+          },
+          {
+            "route_id": "210",
+            "route_type": 3
+          },
+          {
+            "route_id": "220",
+            "route_type": 3
+          },
+          {
+            "route_id": "230",
+            "route_type": 3
+          },
+          {
+            "route_id": "240",
+            "route_type": 3
+          },
+          {
+            "route_id": "250",
+            "route_type": 3
+          },
+          {
+            "route_id": "260",
+            "route_type": 3
+          },
+          {
+            "route_id": "270",
+            "route_type": 3
+          },
+          {
+            "route_id": "280",
+            "route_type": 3
+          },
+          {
+            "route_id": "290",
+            "route_type": 3
+          },
+          {
+            "route_id": "300",
+            "route_type": 3
+          },
+          {
+            "route_id": "310",
+            "route_type": 3
+          },
+          {
+            "route_id": "320",
+            "route_type": 3
+          },
+          {
+            "route_id": "330",
+            "route_type": 3
+          },
+          {
+            "route_id": "340",
+            "route_type": 3
+          },
+          {
+            "route_id": "350",
+            "route_type": 3
+          },
+          {
+            "route_id": "360",
+            "route_type": 3
+          },
+          {
+            "route_id": "370",
+            "route_type": 3
+          },
+          {
+            "route_id": "390",
+            "route_type": 3
+          },
+          {
+            "route_id": "520",
+            "route_type": 3
+          },
+          {
+            "route_id": "560",
+            "route_type": 3
+          },
+          {
+            "route_id": "570",
+            "route_type": 3
+          },
+          {
+            "route_id": "580",
+            "route_type": 3
+          },
+          {
+            "route_id": "600",
+            "route_type": 3
+          },
+          {
+            "route_id": "601",
+            "route_type": 3
+          },
+          {
+            "route_id": "810",
+            "route_type": 3
+          },
+          {
+            "route_id": "830",
+            "route_type": 3
+          },
+          {
+            "route_id": "840",
+            "route_type": 3
+          },
+          {
+            "route_id": "850",
+            "route_type": 3
+          },
+          {
+            "route_id": "1100",
+            "route_type": 3
+          },
+          {
+            "route_id": "1110",
+            "route_type": 3
+          },
+          {
+            "route_id": "1120",
+            "route_type": 3
+          },
+          {
+            "route_id": "1130",
+            "route_type": 3
+          },
+          {
+            "route_id": "1140",
+            "route_type": 3
+          },
+          {
+            "route_id": "1150",
+            "route_type": 3
+          },
+          {
+            "route_id": "1200",
+            "route_type": 3
+          },
+          {
+            "route_id": "1210",
+            "route_type": 3
+          },
+          {
+            "route_id": "1300",
+            "route_type": 3
+          },
+          {
+            "route_id": "1450",
+            "route_type": 3
+          },
+          {
+            "route_id": "1500",
+            "route_type": 3
+          },
+          {
+            "route_id": "1540",
+            "route_type": 3
+          },
+          {
+            "route_id": "1600",
+            "route_type": 3
+          },
+          {
+            "route_id": "1700",
+            "route_type": 3
+          },
+          {
+            "route_id": "2000",
+            "route_type": 3
+          },
+          {
+            "route_id": "2010",
+            "route_type": 3
+          },
+          {
+            "route_id": "2020",
+            "route_type": 3
+          },
+          {
+            "route_id": "2030",
+            "route_type": 3
+          },
+          {
+            "route_id": "2040",
+            "route_type": 3
+          },
+          {
+            "route_id": "2060",
+            "route_type": 3
+          },
+          {
+            "route_id": "2100",
+            "route_type": 3
+          },
+          {
+            "route_id": "2200",
+            "route_type": 3
+          },
+          {
+            "route_id": "2260",
+            "route_type": 3
+          },
+          {
+            "route_id": "2300",
+            "route_type": 3
+          },
+          {
+            "route_id": "2360",
+            "route_type": 3
+          },
+          {
+            "route_id": "2500",
+            "route_type": 3
+          },
+          {
+            "route_id": "2510",
+            "route_type": 3
+          },
+          {
+            "route_id": "2600",
+            "route_type": 3
+          },
+          {
+            "route_id": "2610",
+            "route_type": 3
+          },
+          {
+            "route_id": "2620",
+            "route_type": 3
+          },
+          {
+            "route_id": "2640",
+            "route_type": 3
+          },
+          {
+            "route_id": "2800",
+            "route_type": 3
+          },
+          {
+            "route_id": "2810",
+            "route_type": 3
+          },
+          {
+            "route_id": "2900",
+            "route_type": 3
+          },
+          {
+            "route_id": "2910",
+            "route_type": 3
+          },
+          {
+            "route_id": "3000",
+            "route_type": 3
+          },
+          {
+            "route_id": "9911",
+            "route_type": 3
+          },
+          {
+            "route_id": "9912",
+            "route_type": 3
+          },
+          {
+            "route_id": "9922",
+            "route_type": 3
+          },
+          {
+            "route_id": "9913",
+            "route_type": 3
+          },
+          {
+            "route_id": "9914",
+            "route_type": 3
+          },
+          {
+            "route_id": "9915",
+            "route_type": 3
+          },
+          {
+            "route_id": "9916",
+            "route_type": 3
+          },
+          {
+            "route_id": "9966",
+            "route_type": 3
+          },
+          {
+            "route_id": "9918",
+            "route_type": 3
+          },
+          {
+            "route_id": "9988",
+            "route_type": 3
+          },
+          {
+            "route_id": "5",
+            "route_type": 2
+          },
+          {
+            "route_id": "6",
+            "route_type": 2
+          },
+          {
+            "route_id": "2",
+            "route_type": 2
+          },
+          {
+            "route_id": "3",
+            "route_type": 2
+          },
+          {
+            "route_id": "4",
+            "route_type": 2
+          },
+          {
+            "route_id": "3090",
+            "route_type": 6
+          },
+          {
+            "route_id": "3130",
+            "route_type": 6
+          },
+          {
+            "route_id": "3150",
+            "route_type": 6
+          },
+          {
+            "route_id": "3660",
+            "route_type": 6
+          },
+          {
+            "route_id": "4020",
+            "route_type": 6
+          },
+          {
+            "route_id": "4210",
+            "route_type": 6
+          },
+          {
+            "route_id": "4290",
+            "route_type": 6
+          },
+          {
+            "route_id": "4300",
+            "route_type": 6
+          },
+          {
+            "route_id": "4400",
+            "route_type": 6
+          },
+          {
+            "route_id": "4410",
+            "route_type": 6
+          },
+          {
+            "route_id": "4420",
+            "route_type": 6
+          },
+          {
+            "route_id": "4440",
+            "route_type": 6
+          },
+          {
+            "route_id": "4450",
+            "route_type": 6
+          },
+          {
+            "route_id": "4530",
+            "route_type": 6
+          },
+          {
+            "route_id": "4600",
+            "route_type": 6
+          },
+          {
+            "route_id": "4610",
+            "route_type": 6
+          },
+          {
+            "route_id": "4650",
+            "route_type": 6
+          },
+          {
+            "route_id": "5000",
+            "route_type": 6
+          },
+          {
+            "route_id": "5010",
+            "route_type": 6
+          },
+          {
+            "route_id": "5050",
+            "route_type": 6
+          },
+          {
+            "route_id": "5070",
+            "route_type": 6
+          },
+          {
+            "route_id": "5080",
+            "route_type": 6
+          },
+          {
+            "route_id": "5100",
+            "route_type": 6
+          },
+          {
+            "route_id": "5120",
+            "route_type": 6
+          },
+          {
+            "route_id": "5300",
+            "route_type": 6
+          },
+          {
+            "route_id": "6110",
+            "route_type": 6
+          },
+          {
+            "route_id": "6120",
+            "route_type": 6
+          },
+          {
+            "route_id": "6140",
+            "route_type": 6
+          },
+          {
+            "route_id": "6150",
+            "route_type": 6
+          },
+          {
+            "route_id": "6160",
+            "route_type": 6
+          },
+          {
+            "route_id": "6170",
+            "route_type": 6
+          },
+          {
+            "route_id": "6190",
+            "route_type": 6
+          },
+          {
+            "route_id": "6210",
+            "route_type": 6
+          },
+          {
+            "route_id": "6230",
+            "route_type": 6
+          },
+          {
+            "route_id": "6250",
+            "route_type": 6
+          },
+          {
+            "route_id": "6270",
+            "route_type": 6
+          },
+          {
+            "route_id": "6310",
+            "route_type": 6
+          },
+          {
+            "route_id": "6330",
+            "route_type": 6
+          },
+          {
+            "route_id": "6340",
+            "route_type": 6
+          },
+          {
+            "route_id": "6350",
+            "route_type": 6
+          },
+          {
+            "route_id": "6460",
+            "route_type": 6
+          },
+          {
+            "route_id": "6470",
+            "route_type": 6
+          },
+          {
+            "route_id": "6480",
+            "route_type": 6
+          },
+          {
+            "route_id": "6540",
+            "route_type": 6
+          },
+          {
+            "route_id": "6610",
+            "route_type": 6
+          },
+          {
+            "route_id": "6670",
+            "route_type": 6
+          },
+          {
+            "route_id": "6710",
+            "route_type": 6
+          },
+          {
+            "route_id": "6730",
+            "route_type": 6
+          },
+          {
+            "route_id": "6740",
+            "route_type": 6
+          },
+          {
+            "route_id": "6770",
+            "route_type": 6
+          },
+          {
+            "route_id": "6780",
+            "route_type": 6
+          },
+          {
+            "route_id": "6800",
+            "route_type": 6
+          },
+          {
+            "route_id": "6810",
+            "route_type": 6
+          },
+          {
+            "route_id": "6820",
+            "route_type": 6
+          },
+          {
+            "route_id": "6850",
+            "route_type": 6
+          },
+          {
+            "route_id": "7000",
+            "route_type": 6
+          },
+          {
+            "route_id": "7040",
+            "route_type": 6
+          },
+          {
+            "route_id": "7110",
+            "route_type": 6
+          },
+          {
+            "route_id": "7120",
+            "route_type": 6
+          },
+          {
+            "route_id": "7130",
+            "route_type": 6
+          },
+          {
+            "route_id": "7150",
+            "route_type": 6
+          },
+          {
+            "route_id": "7160",
+            "route_type": 6
+          },
+          {
+            "route_id": "7170",
+            "route_type": 6
+          },
+          {
+            "route_id": "7180",
+            "route_type": 6
+          },
+          {
+            "route_id": "7190",
+            "route_type": 6
+          },
+          {
+            "route_id": "7200",
+            "route_type": 6
+          },
+          {
+            "route_id": "7210",
+            "route_type": 6
+          },
+          {
+            "route_id": "7220",
+            "route_type": 6
+          },
+          {
+            "route_id": "7230",
+            "route_type": 6
+          },
+          {
+            "route_id": "7240",
+            "route_type": 6
+          },
+          {
+            "route_id": "7250",
+            "route_type": 6
+          },
+          {
+            "route_id": "7260",
+            "route_type": 6
+          },
+          {
+            "route_id": "7280",
+            "route_type": 6
+          },
+          {
+            "route_id": "7300",
+            "route_type": 6
+          },
+          {
+            "route_id": "7310",
+            "route_type": 6
+          },
+          {
+            "route_id": "7320",
+            "route_type": 6
+          },
+          {
+            "route_id": "7340",
+            "route_type": 6
+          },
+          {
+            "route_id": "7360",
+            "route_type": 6
+          },
+          {
+            "route_id": "7370",
+            "route_type": 6
+          },
+          {
+            "route_id": "7380",
+            "route_type": 6
+          },
+          {
+            "route_id": "7390",
+            "route_type": 6
+          },
+          {
+            "route_id": "7400",
+            "route_type": 6
+          },
+          {
+            "route_id": "7410",
+            "route_type": 6
+          },
+          {
+            "route_id": "7420",
+            "route_type": 6
+          },
+          {
+            "route_id": "7430",
+            "route_type": 6
+          },
+          {
+            "route_id": "7440",
+            "route_type": 6
+          },
+          {
+            "route_id": "7450",
+            "route_type": 6
+          },
+          {
+            "route_id": "7460",
+            "route_type": 6
+          },
+          {
+            "route_id": "7510",
+            "route_type": 6
+          },
+          {
+            "route_id": "7530",
+            "route_type": 6
+          },
+          {
+            "route_id": "7540",
+            "route_type": 6
+          },
+          {
+            "route_id": "7550",
+            "route_type": 6
+          },
+          {
+            "route_id": "7580",
+            "route_type": 6
+          },
+          {
+            "route_id": "7590",
+            "route_type": 6
+          },
+          {
+            "route_id": "7600",
+            "route_type": 6
+          },
+          {
+            "route_id": "7610",
+            "route_type": 6
+          },
+          {
+            "route_id": "7620",
+            "route_type": 6
+          },
+          {
+            "route_id": "7640",
+            "route_type": 6
+          },
+          {
+            "route_id": "7670",
+            "route_type": 6
+          },
+          {
+            "route_id": "7680",
+            "route_type": 6
+          },
+          {
+            "route_id": "7690",
+            "route_type": 6
+          },
+          {
+            "route_id": "7700",
+            "route_type": 6
+          },
+          {
+            "route_id": "7720",
+            "route_type": 6
+          },
+          {
+            "route_id": "7740",
+            "route_type": 6
+          },
+          {
+            "route_id": "7750",
+            "route_type": 6
+          },
+          {
+            "route_id": "7760",
+            "route_type": 6
+          },
+          {
+            "route_id": "7800",
+            "route_type": 6
+          },
+          {
+            "route_id": "7820",
+            "route_type": 6
+          },
+          {
+            "route_id": "7840",
+            "route_type": 6
+          },
+          {
+            "route_id": "7910",
+            "route_type": 6
+          },
+          {
+            "route_id": "8230",
+            "route_type": 6
+          },
+          {
+            "route_id": "8250",
+            "route_type": 6
+          },
+          {
+            "route_id": "8280",
+            "route_type": 6
+          },
+          {
+            "route_id": "8400",
+            "route_type": 6
+          },
+          {
+            "route_id": "8420",
+            "route_type": 6
+          },
+          {
+            "route_id": "8430",
+            "route_type": 6
+          },
+          {
+            "route_id": "8460",
+            "route_type": 6
+          },
+          {
+            "route_id": "8480",
+            "route_type": 6
+          },
+          {
+            "route_id": "8490",
+            "route_type": 6
+          },
+          {
+            "route_id": "8520",
+            "route_type": 6
+          },
+          {
+            "route_id": "8530",
+            "route_type": 6
+          },
+          {
+            "route_id": "8540",
+            "route_type": 6
+          },
+          {
+            "route_id": "8550",
+            "route_type": 6
+          },
+          {
+            "route_id": "8600",
+            "route_type": 6
+          },
+          {
+            "route_id": "8660",
+            "route_type": 6
+          },
+          {
+            "route_id": "8670",
+            "route_type": 6
+          },
+          {
+            "route_id": "8680",
+            "route_type": 6
+          },
+          {
+            "route_id": "8740",
+            "route_type": 6
+          },
+          {
+            "route_id": "8860",
+            "route_type": 6
+          },
+          {
+            "route_id": "8870",
+            "route_type": 6
+          },
+          {
+            "route_id": "8880",
+            "route_type": 6
+          },
+          {
+            "route_id": "9010",
+            "route_type": 6
+          },
+          {
+            "route_id": "9060",
+            "route_type": 6
+          },
+          {
+            "route_id": "9110",
+            "route_type": 6
+          },
+          {
+            "route_id": "9150",
+            "route_type": 6
+          },
+          {
+            "route_id": "9160",
+            "route_type": 6
+          },
+          {
+            "route_id": "9260",
+            "route_type": 6
+          },
+          {
+            "route_id": "9290",
+            "route_type": 6
+          },
+          {
+            "route_id": "9300",
+            "route_type": 6
+          },
+          {
+            "route_id": "9310",
+            "route_type": 6
+          },
+          {
+            "route_id": "9350",
+            "route_type": 6
+          },
+          {
+            "route_id": "9510",
+            "route_type": 6
+          },
+          {
+            "route_id": "9530",
+            "route_type": 6
+          },
+          {
+            "route_id": "9550",
+            "route_type": 6
+          },
+          {
+            "route_id": "9",
+            "route_type": 5
+          },
+          {
+            "route_id": "8",
+            "route_type": 4
+          }
+        ],
+        "severity_level": "SEVERE",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://old.metlink.org.nz/service-updates/wellington-region-is-currently-in-alert-level-2/"
+            }
+          ]
+        }
+      },
+      "id": 2355,
+      "timestamp": "2021-02-15T12:55:04+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1613844031,
+            "end": 1613863859
+          }
+        ],
+        "effect": "DETOUR",
+        "cause": "HOLIDAY",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Oriental Parade, Evans Bay Parade and Wellington Road/SH1 will be closed. Buses on route 14 and 24 will detour via the Hataitai Bus Tunnel. All bus stops along Oriental Parade and Evans Bay Parade will be closed."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Oriental Parade, Evans Bay Parade, Kilbirnie Park: Buses detour for Round the Bays - 7am to 12:30pm, Sunday 21 February"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "140",
+            "route_type": 3
+          },
+          {
+            "route_id": "240",
+            "route_type": 3
+          },
+          {
+            "stop_id": "6512"
+          },
+          {
+            "stop_id": "6514"
+          },
+          {
+            "stop_id": "6515"
+          },
+          {
+            "stop_id": "6516"
+          },
+          {
+            "stop_id": "6517"
+          },
+          {
+            "stop_id": "6518"
+          },
+          {
+            "stop_id": "6519"
+          },
+          {
+            "stop_id": "6521"
+          },
+          {
+            "stop_id": "6522"
+          },
+          {
+            "stop_id": "6524"
+          },
+          {
+            "stop_id": "6525"
+          },
+          {
+            "stop_id": "6526"
+          },
+          {
+            "stop_id": "6527"
+          },
+          {
+            "stop_id": "6528"
+          },
+          {
+            "stop_id": "6529"
+          },
+          {
+            "stop_id": "6540"
+          },
+          {
+            "stop_id": "6541"
+          },
+          {
+            "stop_id": "6542"
+          },
+          {
+            "stop_id": "6544"
+          },
+          {
+            "stop_id": "6545"
+          },
+          {
+            "stop_id": "6546"
+          },
+          {
+            "stop_id": "6547"
+          },
+          {
+            "stop_id": "6548"
+          },
+          {
+            "stop_id": "6549"
+          },
+          {
+            "stop_id": "6550"
+          },
+          {
+            "stop_id": "6551"
+          },
+          {
+            "stop_id": "6552"
+          },
+          {
+            "stop_id": "6553"
+          },
+          {
+            "stop_id": "7529"
+          },
+          {
+            "stop_id": "7527"
+          },
+          {
+            "stop_id": "7526"
+          },
+          {
+            "stop_id": "7525"
+          },
+          {
+            "stop_id": "7524"
+          },
+          {
+            "stop_id": "7523"
+          },
+          {
+            "stop_id": "7522"
+          },
+          {
+            "stop_id": "7521"
+          },
+          {
+            "stop_id": "7520"
+          },
+          {
+            "stop_id": "7553"
+          },
+          {
+            "stop_id": "7552"
+          },
+          {
+            "stop_id": "7551"
+          },
+          {
+            "stop_id": "7550"
+          },
+          {
+            "stop_id": "7549"
+          },
+          {
+            "stop_id": "7549"
+          },
+          {
+            "stop_id": "7547"
+          },
+          {
+            "stop_id": "7546"
+          },
+          {
+            "stop_id": "7545"
+          },
+          {
+            "stop_id": "7544"
+          },
+          {
+            "stop_id": "7543"
+          },
+          {
+            "stop_id": "7542"
+          },
+          {
+            "stop_id": "7541"
+          },
+          {
+            "stop_id": "7540"
+          },
+          {
+            "stop_id": "7519"
+          },
+          {
+            "stop_id": "7518"
+          },
+          {
+            "stop_id": "7517"
+          },
+          {
+            "stop_id": "7515"
+          },
+          {
+            "stop_id": "7514"
+          },
+          {
+            "stop_id": "7512"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/detours-and-closures/"
+            }
+          ]
+        }
+      },
+      "id": 2366,
+      "timestamp": "2021-02-15T10:11:50+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1610881754,
+            "end": 1613386799
+          }
+        ],
+        "effect": "DETOUR",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Buses on Route 83 and 110 heading southbound on Victoria Street will detour via Railway Avenue, Hutt Road, Te Mome Road. Services heading towards Lower Hutt CBD will not be affected."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Alicetown: Victoria street bus detour for roadworks - works extended: 9am to 4pm, Monday 18 January - Monday 15 February"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "830",
+            "route_type": 3
+          },
+          {
+            "route_id": "1100",
+            "route_type": 3
+          },
+          {
+            "stop_id": "8112"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1849,
+      "timestamp": "2021-02-12T14:19:34+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1613319033,
+            "end": 1613645999
+          }
+        ],
+        "effect": "MODIFIED_SERVICE",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Buses replace some daytime services between Trentham and Upper Hutt Monday to Thursday, and some evening services between Wellington and Upper Hutt Monday to Wednesday."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Buses replace some daytime services between Trentham and Upper Hutt Monday 15 to Thursday 18 February, and some evening services between Wellington and Upper Hutt Monday 15 and Wednesday 17 February."
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "5",
+            "route_type": 2
+          },
+          {
+            "stop_id": "WELL"
+          },
+          {
+            "stop_id": "NGAU"
+          },
+          {
+            "stop_id": "PETO"
+          },
+          {
+            "stop_id": "AVA"
+          },
+          {
+            "stop_id": "WOBU"
+          },
+          {
+            "stop_id": "WATE"
+          },
+          {
+            "stop_id": "EPUN"
+          },
+          {
+            "stop_id": "NAEN"
+          },
+          {
+            "stop_id": "WING"
+          },
+          {
+            "stop_id": "TAIT"
+          },
+          {
+            "stop_id": "POMA"
+          },
+          {
+            "stop_id": "MANO"
+          },
+          {
+            "stop_id": "SILV"
+          },
+          {
+            "stop_id": "HERE"
+          },
+          {
+            "stop_id": "TREN"
+          },
+          {
+            "stop_id": "WALL"
+          },
+          {
+            "stop_id": "UPPE"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/buses-replacing-trains/hutt-valley-line-and-melling-line/"
+            }
+          ]
+        }
+      },
+      "id": 2265,
+      "timestamp": "2021-02-12T07:40:46+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1613333711,
+            "end": 1613645999
+          }
+        ],
+        "effect": "MODIFIED_SERVICE",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Please allow extra time for travel."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Buses replace some daytime services between Wellington and Upper Hutt - Monday 15 to Thursday 18 February"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "4",
+            "route_type": 2
+          },
+          {
+            "stop_id": "WELL"
+          },
+          {
+            "stop_id": "NGAU"
+          },
+          {
+            "stop_id": "PETO"
+          },
+          {
+            "stop_id": "AVA"
+          },
+          {
+            "stop_id": "WOBU"
+          },
+          {
+            "stop_id": "WATE"
+          },
+          {
+            "stop_id": "EPUN"
+          },
+          {
+            "stop_id": "NAEN"
+          },
+          {
+            "stop_id": "WING"
+          },
+          {
+            "stop_id": "TAIT"
+          },
+          {
+            "stop_id": "POMA"
+          },
+          {
+            "stop_id": "MANO"
+          },
+          {
+            "stop_id": "SILV"
+          },
+          {
+            "stop_id": "HERE"
+          },
+          {
+            "stop_id": "TREN"
+          },
+          {
+            "stop_id": "WALL"
+          },
+          {
+            "stop_id": "UPPE"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/buses-replacing-trains/wairarapa-line/"
+            }
+          ]
+        }
+      },
+      "id": 2268,
+      "timestamp": "2021-02-12T07:40:09+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1608082105,
+            "end": 1622462399
+          }
+        ],
+        "effect": "ACCESSIBILITY_ISSUE",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "The pedestrian footbridge at the north end of the station is closed for strengthening work. Please use the footbridge at the south end of the station. Note: completion has been delayed due to poor weather and additional groundworks."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Woburn Station - footbridge strengthening works"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "WOBU2"
+          },
+          {
+            "stop_id": "WOBU1"
+          },
+          {
+            "stop_id": "WOBU"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1214,
+      "timestamp": "2021-02-11T16:08:00+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1613247454,
+            "end": 1613559599
+          }
+        ],
+        "effect": "MODIFIED_SERVICE",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Please allow extra time for travel."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Buses replace some evening services between Porirua and Waikanae - Sunday 14 to Wednesday 17 February"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "2",
+            "route_type": 2
+          },
+          {
+            "stop_id": "PORI"
+          },
+          {
+            "stop_id": "PARE"
+          },
+          {
+            "stop_id": "MANA"
+          },
+          {
+            "stop_id": "PLIM"
+          },
+          {
+            "stop_id": "PUKE"
+          },
+          {
+            "stop_id": "PAEK"
+          },
+          {
+            "stop_id": "PARA"
+          },
+          {
+            "stop_id": "WAIK"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/buses-replacing-trains/kapiti-line/"
+            }
+          ]
+        }
+      },
+      "id": 2269,
+      "timestamp": "2021-02-10T18:04:35+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1612835381,
+            "end": 1618574399
+          }
+        ],
+        "effect": "MODIFIED_SERVICE",
+        "cause": "OTHER_CAUSE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Due to a change of school finish times, afternoon departures from Aotea College are different to the published timetable on some days.\r\nOn Tuesdays & Thursdays buses depart Aotea College at 2.27pm. On Wednesdays buses will depart Aotea College at 3.20pm. "
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Aotea College afternoon school bus services are different to the published timetable."
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "4290",
+            "route_type": 6
+          },
+          {
+            "route_id": "4400",
+            "route_type": 6
+          },
+          {
+            "route_id": "4410",
+            "route_type": 6
+          },
+          {
+            "route_id": "4420",
+            "route_type": 6
+          },
+          {
+            "route_id": "4440",
+            "route_type": 6
+          },
+          {
+            "route_id": "4450",
+            "route_type": 6
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/getting-started/schools-guide/"
+            }
+          ]
+        }
+      },
+      "id": 2233,
+      "timestamp": "2021-02-09T17:38:12+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1611399690,
+            "end": 1622462399
+          }
+        ],
+        "effect": "ACCESSIBILITY_ISSUE",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Upgrades include more commuter parking, upgraded storm water drainage and other cosmetic upgrades including an extended footpath, new footpath crossing the carpark and an extended bus stop waiting area. Please observe all signage."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Featherston Station: Carpark upgrade works from 24 January"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "FEAT"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#wairarapa"
+            }
+          ]
+        }
+      },
+      "id": 1787,
+      "timestamp": "2021-01-27T02:45:09+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1611658854,
+            "end": 1614596399
+          }
+        ],
+        "effect": "STOP_MOVED",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Stokes Valley Road entrance is getting new concrete pad to withstand the weight of buses. Due to restricted space, only 1 of the 3 bus stops in this area will open at any time. A temporary bus stop opposite 24 Stokes Valley Road will be open. "
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Stokes Valley - Stokes Valley Road entrance concrete pad installation - Wednesday 27 January to 1 March."
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "9361"
+          },
+          {
+            "stop_id": "8360"
+          },
+          {
+            "stop_id": "9360"
+          }
+        ],
+        "severity_level": "WARNING",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1215,
+      "timestamp": "2021-01-25T12:58:58+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1612004427,
+            "end": 1617710399
+          }
+        ],
+        "effect": "ACCESSIBILITY_ISSUE",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "The Park & Ride will be partially closed during the project, with 65 car parks available. Trains will still run on the Hutt Valley Line, but will not stop at Wallaceville Station. Trentham and Upper Hutt stations will remain open."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Wallaceville Station: Closed to trains for upgrade works from 31 January"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "5",
+            "route_type": 2
+          },
+          {
+            "stop_id": "WALL"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1611,
+      "timestamp": "2021-01-25T12:55:36+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1610516571,
+            "end": 1640948399
+          }
+        ],
+        "effect": "NO_EFFECT",
+        "cause": "OTHER_CAUSE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Harbour Ferries are not tracked by GPS like Metlink buses and trains. Click \"More information\" below to use the eNautical Wellington Ship Tracker to track the Harbour Ferry, or call the ferry status line on 04 494 3339."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Want to know where the ferry is?"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "8",
+            "route_type": 4
+          },
+          {
+            "stop_id": "9998"
+          },
+          {
+            "stop_id": "9999"
+          },
+          {
+            "stop_id": "9997"
+          },
+          {
+            "stop_id": "9995"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.enautical.co.nz/ship-tracking/wellington-ship-tracking/"
+            }
+          ]
+        }
+      },
+      "id": 1637,
+      "timestamp": "2021-01-20T09:51:09+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1603921031,
+            "end": 1622462399
+          }
+        ],
+        "effect": "NO_EFFECT",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "The speed restriction adds one to three minutes to journey times, depending on the time of travel. KiwiRail have placed a spotter on site weekdays 6am and 7pm to reduce delays to commuters. The restriction is likely to be in place for several months."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Kāpiti Line: Speed restriction between Pukerua Bay and Paekakariki during slip site mitigation work"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "route_id": "2",
+            "route_type": 2
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://www.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#kapiti"
+            }
+          ]
+        }
+      },
+      "id": 211,
+      "timestamp": "2021-01-20T08:52:46+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1609970318,
+            "end": 1614509999
+          }
+        ],
+        "effect": "NO_EFFECT",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Due to delays in the construction of the new public toilets, work will be completed later than intended. The new facility is set to open late February 2021. Alternative toilets are available in the Bus Interchange. "
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Wellington Station: Upgrades to toilets in main atrium delayed until February 2021"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "WELL"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#wellington"
+            }
+          ]
+        }
+      },
+      "id": 1486,
+      "timestamp": "2021-01-07T10:58:57+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1608245775,
+            "end": 1619870399
+          }
+        ],
+        "effect": "ACCESSIBILITY_ISSUE",
+        "cause": "MAINTENANCE",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Ferries are now berthing on the Southern side of Days Bay Wharf for the next 3-4 months. The wharf will only be open for ferry users during this time. Ferries need to reverse when they depart, so swimmers, kayakers and other users of the wharf area are asked to stay away for safety reasons."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Days Bay Wharf: Harbour Ferry change to berth for several months"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "9999"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1241,
+      "timestamp": "2021-01-05T17:48:31+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1599393614,
+            "end": 1619783999
+          }
+        ],
+        "effect": "ACCESSIBILITY_ISSUE",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "An area of the carpark will be closing for approximately 6 months. This does not affect bus services."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Trentham Station - Carpark partial closure for construction of pedestrian underpass."
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "TREN"
+          },
+          {
+            "stop_id": "9526"
+          },
+          {
+            "stop_id": "9525"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 67,
+      "timestamp": "2021-01-05T17:42:39+1300"
+    },
+    {
+      "alert": {
+        "active_period": [
+          {
+            "start": 1609671646,
+            "end": 1620129599
+          }
+        ],
+        "effect": "NO_EFFECT",
+        "cause": "CONSTRUCTION",
+        "description_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Please observe all signage and instructions as stages of the work will occupy different areas of the carpark, and access to the station may change. Please consider travelling to the station by bike, walking or taking the bus."
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "Upgrade Works taking place at Upper Hutt Station from 4 January 2021"
+            }
+          ]
+        },
+        "informed_entity": [
+          {
+            "stop_id": "UPPE"
+          },
+          {
+            "stop_id": "8579"
+          },
+          {
+            "stop_id": "8580"
+          }
+        ],
+        "severity_level": "INFO",
+        "url": {
+          "translation": [
+            {
+              "language": "en",
+              "text": "https://beta.metlink.org.nz/news-and-updates/service-changes/detours-and-closures#huttvalley"
+            }
+          ]
+        }
+      },
+      "id": 1280,
+      "timestamp": "2021-01-05T17:38:34+1300"
+    }
+  ]
+}

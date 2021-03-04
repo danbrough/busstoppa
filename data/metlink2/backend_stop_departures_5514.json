@@ -1,0 +1,547 @@
+{
+  "farezone": "1",
+  "closed": false,
+  "departures": [
+    {
+      "stop_id": "5514",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "PT3M24S",
+      "vehicle_id": "3525",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:38:00+13:00",
+        "expected": "2021-02-17T15:41:24+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:38:00+13:00",
+        "expected": "2021-02-17T15:41:55+13:00"
+      },
+      "status": "delayed",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "PT1M26S",
+      "vehicle_id": "1460",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:42:00+13:00",
+        "expected": "2021-02-17T15:43:26+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:42:00+13:00",
+        "expected": "2021-02-17T15:43:26+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": false
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "32x",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "6001",
+        "name": "WgtnStn-C"
+      },
+      "destination": {
+        "stop_id": "6163",
+        "name": "Houghton Bay"
+      },
+      "delay": "PT32S",
+      "vehicle_id": "3503",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:43:00+13:00",
+        "expected": "2021-02-17T15:43:32+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:43:00+13:00",
+        "expected": "2021-02-17T15:43:32+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT5M10S",
+      "vehicle_id": "2209",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:43:50+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:43:50+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3050",
+        "name": "J'villeW-McLintockS"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT56S",
+      "vehicle_id": "3451",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:47:00+13:00",
+        "expected": "2021-02-17T15:46:04+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:47:00+13:00",
+        "expected": "2021-02-17T15:46:04+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT1M21S",
+      "vehicle_id": "7803",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:47:39+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:47:39+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5139",
+        "name": "CardinalMcKeefrySch"
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "-PT1M20S",
+      "vehicle_id": "1471",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:47:40+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:49:00+13:00",
+        "expected": "2021-02-17T15:47:40+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3297",
+        "name": "ChurtonPk - Melksha"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT5M32S",
+      "vehicle_id": "3945",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:51:28+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:51:28+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "36",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "6000",
+        "name": "WgtnStn-B"
+      },
+      "destination": {
+        "stop_id": "7338",
+        "name": "Lyall Bay"
+      },
+      "delay": "-PT3M52S",
+      "vehicle_id": "3050",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:53:08+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:53:08+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "21",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4915",
+        "name": "VictoriaUni-A"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT2M13S",
+      "vehicle_id": "2633",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:58:00+13:00",
+        "expected": "2021-02-17T15:55:47+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:58:00+13:00",
+        "expected": "2021-02-17T15:55:47+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT32S",
+      "vehicle_id": "1390",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:56:28+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T15:57:00+13:00",
+        "expected": "2021-02-17T15:56:28+13:00"
+      },
+      "status": "ontime",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "24",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3081",
+        "name": "Johnsonville-B"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT2M34S",
+      "vehicle_id": "3438",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:01:00+13:00",
+        "expected": "2021-02-17T15:58:26+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:01:00+13:00",
+        "expected": "2021-02-17T15:58:26+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "7042",
+        "name": "Seatoun"
+      },
+      "delay": "-PT4M29S",
+      "vehicle_id": "3312",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:04:00+13:00",
+        "expected": "2021-02-17T15:59:31+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:04:00+13:00",
+        "expected": "2021-02-17T15:59:31+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "23",
+      "direction": "outbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "6937",
+        "name": "Houghton Bay"
+      },
+      "delay": "-PT4M32S",
+      "vehicle_id": "3518",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:06:00+13:00",
+        "expected": "2021-02-17T16:01:28+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:06:00+13:00",
+        "expected": "2021-02-17T16:01:28+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "52",
+      "direction": "inbound",
+      "operator": "MNM",
+      "origin": {
+        "stop_id": "3250",
+        "name": "Johnsonville-C"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT2M4S",
+      "vehicle_id": "1765",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:04:00+13:00",
+        "expected": "2021-02-17T16:01:56+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:04:00+13:00",
+        "expected": "2021-02-17T16:01:56+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "12e",
+      "direction": "outbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "5500",
+        "name": "WgtnStn-A"
+      },
+      "destination": {
+        "stop_id": "7099",
+        "name": "Strathmore Pk"
+      },
+      "delay": "-PT3M32S",
+      "vehicle_id": "1307",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:06:00+13:00",
+        "expected": "2021-02-17T16:02:28+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:06:00+13:00",
+        "expected": "2021-02-17T16:02:28+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "1",
+      "direction": "inbound",
+      "operator": "TZM",
+      "origin": {
+        "stop_id": "3451",
+        "name": "GrenadaVlg-GrenadaD"
+      },
+      "destination": {
+        "stop_id": "6158",
+        "name": "Island Bay"
+      },
+      "delay": "-PT3M59S",
+      "vehicle_id": "3946",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:08:00+13:00",
+        "expected": "2021-02-17T16:04:01+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:08:00+13:00",
+        "expected": "2021-02-17T16:04:01+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "14",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4333",
+        "name": "MarsdenSch-VeraSt ("
+      },
+      "destination": {
+        "stop_id": "6224",
+        "name": "Kilbirnie"
+      },
+      "delay": "-PT4M4S",
+      "vehicle_id": "2098",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:09:00+13:00",
+        "expected": "2021-02-17T16:04:56+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:09:00+13:00",
+        "expected": "2021-02-17T16:04:56+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "2",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "4332",
+        "name": "Karori-AllingtonRd"
+      },
+      "destination": {
+        "stop_id": "6241",
+        "name": "Miramar"
+      },
+      "delay": "-PT4M29S",
+      "vehicle_id": "1509",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:12:00+13:00",
+        "expected": "2021-02-17T16:07:31+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:12:00+13:00",
+        "expected": "2021-02-17T16:07:31+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    },
+    {
+      "stop_id": "5514",
+      "service_id": "83",
+      "direction": "inbound",
+      "operator": "NBM",
+      "origin": {
+        "stop_id": "8858",
+        "name": "EastbourneTmns"
+      },
+      "destination": {
+        "stop_id": "5516",
+        "name": "Courtenay Pl"
+      },
+      "delay": "-PT11M35S",
+      "vehicle_id": "5080",
+      "name": "CourtenayPl at Cour",
+      "arrival": {
+        "aimed": "2021-02-17T16:20:00+13:00",
+        "expected": "2021-02-17T16:08:25+13:00"
+      },
+      "departure": {
+        "aimed": "2021-02-17T16:20:00+13:00",
+        "expected": "2021-02-17T16:08:25+13:00"
+      },
+      "status": "early",
+      "wheelchair_accessible": true
+    }
+  ],
+  "alerts": []
+}

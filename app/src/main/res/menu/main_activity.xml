@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto">
-  <item
-      android:id="@+id/menu_map"
-      android:icon="@drawable/ic_map_white_24dp"
-      android:orderInCategory="10"
-      android:title="@string/lbl_stop_map"
-      app:showAsAction="always"/>
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  tools:context=".MainActivity">
+
 
 
   <item
-      android:id="@+id/menu_about"
-      android:orderInCategory="100"
-      android:title="@string/lbl_about"
-      />
-
+    android:id="@+id/action_reset_help"
+    android:orderInCategory="99"
+    android:title="@string/lbl_reset_help"
+    app:showAsAction="never" />
 
   <item
-      android:id="@+id/menu_exit"
-      android:orderInCategory="101"
-      android:title="@string/lbl_exit"
-      />
-
+    android:id="@+id/action_about"
+    android:orderInCategory="100"
+    android:title="@string/lbl_about"
+    app:showAsAction="never" />
 </menu>
