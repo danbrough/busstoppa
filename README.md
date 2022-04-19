@@ -8,7 +8,7 @@ BusStoppa is a simple android app for viewing live timetable information in the 
 
 see: https://play.google.com/store/apps/details?id=danbroid.busapp
 
-Code documentation is (here)[docs/busstoppa/]
+Code documentation is [here](docs/busstoppa/)
 
 ## Removing from github.
 
