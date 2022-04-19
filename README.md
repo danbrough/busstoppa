@@ -10,3 +10,9 @@ see: https://play.google.com/store/apps/details?id=danbroid.busapp
 
 Code documentation is (here)[docs/busstoppa/]
 
+## Removing from github.
+
+No interest in collaboration but feel free to ask for latest source code if you are interested.
+
+
+
